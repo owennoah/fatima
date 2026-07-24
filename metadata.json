@@ -1,0 +1,6 @@
+{
+  "name": "Media Sosial Hero Section",
+  "description": "High-fidelity modern dark hero section with interactive glassmorphic social media widgets, responsive layout, custom typography, and flexible right-side image placeholder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
