@@ -18,7 +18,7 @@ export default function App() {
   const [customImageUrl, setCustomImageUrl] = useState<string | null>(null);
 
   const [heroContent, setHeroContent] = useState<HeroContent>({
-    discountTag: "I'm Zarqa creative strategist",
+    discountTag: "I'm Zarqa",
     headlinePrefix: "Let's be a",
     headlineMain: 'Partner in growing your',
     headlineSuffix: 'business',

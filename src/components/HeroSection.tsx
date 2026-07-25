@@ -75,10 +75,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           {/* Eyebrow Discount Tag */}
           <div className="inline-flex items-center gap-2 animate-fade-in-up animation-delay-100">
             <span
-              className={`text-xs sm:text-sm font-semibold tracking-[0.18em] uppercase font-mono px-3.5 py-1 rounded-full border transition-colors ${
+              className={`text-xs sm:text-sm font-semibold tracking-[0.18em] uppercase font-mono px-5 py-2 rounded-full transition-colors ${
                 isLight
-                  ? 'bg-blue-50 border-blue-200/90 text-blue-600 shadow-xs'
-                  : 'bg-white/5 border-white/10 text-slate-300'
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-blue-500 text-white'
               }`}
             >
               {heroContent.discountTag}
