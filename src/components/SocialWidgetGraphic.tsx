@@ -11,15 +11,6 @@ export const SocialWidgetGraphic: React.FC<{
 
   return (
     <div className="relative w-full aspect-square max-w-[540px] sm:max-w-[600px] lg:max-w-[640px] mx-auto flex items-center justify-center select-none py-2 -mt-10 sm:-mt-16 lg:-mt-24">
-      {/* Hand-drawn Annotation Bottom Right: Squiggly Wave */}
-      <div className="absolute bottom-0 sm:bottom-2 right-6 sm:right-12 z-20">
-        <DoodleWave
-          className={`w-16 sm:w-22 h-10 transition-colors ${
-            isLight ? 'text-slate-400' : 'text-white/70'
-          }`}
-        />
-      </div>
-
       {/* Central Organic 3D Textured Floral Blob */}
       <div className="relative w-80 h-80 sm:w-96 sm:h-96 lg:w-[430px] lg:h-[430px] flex items-center justify-center">
         {/* Soft background glow */}

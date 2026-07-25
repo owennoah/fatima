@@ -97,14 +97,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <span className={isLight ? 'bg-gradient-to-r from-blue-700 via-blue-600 to-sky-500 bg-clip-text text-transparent' : 'text-blue-400'}>
                   Expert
                 </span>
-                {/* Hand drawn sparkle doodle */}
-                <div className="absolute -right-12 -top-4 sm:-right-16 sm:-top-6 pointer-events-none">
-                  <DoodleSparkle
-                    className={`w-10 h-10 sm:w-14 sm:h-14 ${
-                      isLight ? 'text-blue-500' : 'text-white/90'
-                    }`}
-                  />
-                </div>
               </span>
             </h1>
           </div>
