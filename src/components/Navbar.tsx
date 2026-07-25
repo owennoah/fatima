@@ -85,16 +85,24 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Start Project Button (Eye-catching) */}
           <a
             href="#contact"
-            className={`relative group flex items-center justify-center px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 hover:scale-105 active:scale-95 overflow-hidden shadow-lg ${
-              isLight
-                ? 'text-white shadow-blue-500/25 hover:shadow-blue-500/40'
-                : 'text-white shadow-sky-500/20 hover:shadow-sky-500/40'
-            }`}
+            className="contactButton inline-flex"
+            style={{ fontSize: '0.9rem', height: '3em', paddingRight: '3.5em' }}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-blue-500 to-sky-400 bg-[length:200%_auto] group-hover:bg-[right_center] transition-all duration-500" />
-            <span className="relative z-10 flex items-center gap-1.5">
-              Start Project
-            </span>
+            Start Project
+            <div className="iconButton" style={{ height: '2.4em', width: '2.4em' }}>
+              <svg
+                height="20"
+                width="20"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
           </a>
         </div>
 
@@ -163,12 +171,24 @@ export const Navbar: React.FC<NavbarProps> = ({
               <a
                 href="#contact"
                 onClick={() => setMobileMenuOpen(false)}
-                className="relative overflow-hidden flex items-center justify-center gap-2 h-12 rounded-xl text-sm font-bold text-white shadow-lg shadow-blue-500/25 group"
+                className="contactButton flex w-full"
+                style={{ fontSize: '1rem', height: '3.5em', paddingRight: '3.5em' }}
               >
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-blue-500 to-sky-400 bg-[length:200%_auto] bg-left transition-all duration-500" />
-                <span className="relative z-10 flex items-center gap-2">
-                  Start Project
-                </span>
+                Start Project
+                <div className="iconButton" style={{ height: '2.8em', width: '2.8em' }}>
+                  <svg
+                    height="20"
+                    width="20"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
               </a>
             </div>
           </div>

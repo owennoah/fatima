@@ -26,8 +26,8 @@ export default function App() {
     ctaText: 'Contact Us Now',
     stats: [
       { id: '1', value: '100%', label: 'Increase Followers' },
-      { id: '2', value: '1000+', label: 'Satisfied Clients' },
-      { id: '3', value: '100+', label: 'Marketing Experts' },
+      { id: '2', value: '10+', label: 'Satisfied Clients' },
+      { id: '3', value: '20+', label: 'Marketing Experts' },
     ],
   });
 

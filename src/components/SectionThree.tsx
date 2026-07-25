@@ -49,9 +49,9 @@ export const SectionThree: React.FC = () => {
         {/* Header Content */}
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <p className="text-sm font-semibold tracking-widest text-slate-400 uppercase mb-4">SERVICES</p>
-          <h2 className="text-4xl md:text-[44px] font-heading font-medium mb-6 text-white tracking-tight">Our Branding Services</h2>
+          <h2 className="text-4xl md:text-[44px] font-heading font-medium mb-6 text-white tracking-tight">My Services Include</h2>
           <p className="text-lg text-slate-400/90 max-w-2xl mx-auto mb-16">
-            Comprehensive solutions to create, enhance, and maintain your brand's identity.
+            Comprehensive, data-driven Meta Ads strategies to build your audience, maximize conversions, and scale your revenue.
           </p>
         </div>
 

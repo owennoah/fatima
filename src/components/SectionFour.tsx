@@ -50,10 +50,10 @@ export const SectionFour: React.FC<SectionFourProps> = ({ theme }) => {
             Portfolio
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-[56px] font-heading font-extrabold leading-[1.1] mb-6">
-            Our selected<br />projects
+            My<br />Projects
           </h2>
           <p className={`text-lg leading-relaxed ${isLight ? 'text-slate-600' : 'text-slate-400'}`}>
-            View the full case study of our recent featured and awesome works that we created for our clients.
+            View the full case study of my recent featured and awesome works that I created for our clients.
           </p>
         </div>
 

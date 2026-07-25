@@ -114,16 +114,24 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="pt-1 flex flex-col sm:flex-row items-start sm:items-center gap-4 animate-fade-in-up animation-delay-400">
             <a
               href="#contact"
-              className={`relative group inline-flex items-center justify-center px-8 py-4 sm:px-12 sm:py-5 rounded-full font-bold text-lg transition-all duration-500 hover:scale-105 active:scale-95 border-2 ${
-                isLight 
-                  ? 'border-blue-600 text-blue-600 hover:bg-blue-50' 
-                  : 'border-blue-400 text-blue-400 hover:bg-blue-950/40'
-              }`}
+              className="contactButton inline-flex"
+              style={{ fontSize: '1.25rem', height: '3.6em', paddingRight: '3.8em' }}
             >
-              <span className="relative z-10 flex items-center gap-3 tracking-wide">
-                Book A Call
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1.5 transition-transform" />
-              </span>
+              Book A Call
+              <div className="iconButton" style={{ height: '2.8em', width: '2.8em' }}>
+                <svg
+                  height="28"
+                  width="28"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
             </a>
           </div>
 
