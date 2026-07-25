@@ -22,7 +22,7 @@ export default function App() {
     headlinePrefix: "Let's be a",
     headlineMain: 'Partner in growing your',
     headlineSuffix: 'business',
-    subtitle: 'We craft data-driven social media marketing campaigns, content engagement strategies, and viral brand growth.',
+    subtitle: "Creative Strategist, and Performance Marketer with 4+ years of experience running result-driven advertising campaigns for D2C, Ecommerce, and Shopify brands. I scale brands' sales and revenue through high-ROAS campaigns, funnel strategy, creative testing, AI marketing, and data-driven growth.",
     ctaText: 'Contact Us Now',
     stats: [
       { id: '1', value: '100%', label: 'Increase Followers' },

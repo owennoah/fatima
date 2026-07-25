@@ -88,39 +88,30 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           {/* Main Headline with Hand-drawn Doodle Star */}
           <div className="relative animate-fade-in-up animation-delay-200">
             <h1
-              className={`font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[64px] font-extrabold tracking-tight leading-[1.1] transition-colors ${
+              className={`font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[72px] font-extrabold tracking-tight leading-[1.1] transition-colors ${
                 isLight ? 'text-slate-900' : 'text-white'
               }`}
             >
-              <span>{heroContent.headlinePrefix}</span>{' '}
-              <span className="block mt-1 sm:mt-2">
-                {heroContent.headlineMain}{' '}
-                <span className="inline-relative inline-block align-baseline">
-                  <span
-                    className={
-                      isLight
-                        ? 'bg-gradient-to-r from-blue-700 via-blue-600 to-sky-500 bg-clip-text text-transparent font-extrabold'
-                        : 'text-white'
-                    }
-                  >
-                    {heroContent.headlineSuffix}
-                  </span>
-                  {/* Hand drawn sparkle doodle */}
-                  <div className="absolute -right-12 -top-4 sm:-right-16 sm:-top-6 pointer-events-none">
-                    <DoodleSparkle
-                      className={`w-10 h-10 sm:w-14 sm:h-14 ${
-                        isLight ? 'text-blue-500' : 'text-white/90'
-                      }`}
-                    />
-                  </div>
+              <span>A Meta Ads </span>
+              <span className="block mt-1 sm:mt-2 relative inline-block">
+                <span className={isLight ? 'bg-gradient-to-r from-blue-700 via-blue-600 to-sky-500 bg-clip-text text-transparent' : 'text-blue-400'}>
+                  Expert
                 </span>
+                {/* Hand drawn sparkle doodle */}
+                <div className="absolute -right-12 -top-4 sm:-right-16 sm:-top-6 pointer-events-none">
+                  <DoodleSparkle
+                    className={`w-10 h-10 sm:w-14 sm:h-14 ${
+                      isLight ? 'text-blue-500' : 'text-white/90'
+                    }`}
+                  />
+                </div>
               </span>
             </h1>
           </div>
 
           {/* Subtitle */}
           <p
-            className={`text-base sm:text-lg max-w-md font-normal leading-relaxed transition-colors animate-fade-in-up animation-delay-300 ${
+            className={`text-base sm:text-lg max-w-xl font-normal leading-relaxed transition-colors animate-fade-in-up animation-delay-300 ${
               isLight ? 'text-slate-600' : 'text-slate-400'
             }`}
           >
